@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+}
+
+td {
+    border: 3px solid #222;
+    text-align: center;
+    vertical-align: middle;
+    font-size: min(6vw, 6vh);
+    font-family: 'Courier New', monospace;
+    color: white;
+    word-break: break-word;
+}
+
+.cell1 {
+    background-color: #333;
+}
+
+.cell2 {
+    background-color: #555;
+}
+
+.cell3 {
+    background-color: #777;
+}
+
+.cell4 {
+    background-color: #999;
+}
+
+.cell5 {
+    background-color: #bbb;
+    color: black;
+}
