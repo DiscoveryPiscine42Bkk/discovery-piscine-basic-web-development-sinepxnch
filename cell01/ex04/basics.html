@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: #ffc0cb; /* โค้ดสีชมพูแทนการเขียนคำว่า pink ตรงๆ */
+            margin: 0;
+            font-family: Verdana, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 70px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+        }
+        .shop-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            max-width: 800px;
+            margin: 50px auto;
+            justify-items: center;
+        }
+        .shop {
+            text-align: center;
+        }
+        .shop img {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .shop a {
+            display: block;
+            margin-top: 15px;
+            font-size: 18px;
+            color: black;
+            text-decoration: none;
+        }
+        hr {
+            border: 2px solid black;
+            width: 90%;
+            margin: 50px auto;
+        }
+        .footer {
+            text-align: right;
+            font-style: italic;
+            font-family: monospace;
+            padding: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Online Shops ♡</h1>
+
+    <div class="shop-container">
+        <div class="shop">
+            <img src="https://1000logos.net/wp-content/uploads/2017/03/Logo-eBay.png" alt="eBay">
+            <a href="https://www.ebay.com" target="_blank">Visit eBay</a>
+        </div>
+        <div class="shop">
+            <img src="https://cdn.worldvectorlogo.com/logos/etsy.svg" alt="Etsy">
+            <a href="https://www.etsy.com" target="_blank">Visit Etsy</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        © punch 2025
+    </div>
+
+</body>
+</html>
